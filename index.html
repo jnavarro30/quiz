@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz__app">
+            <header>
+                <h1 class="quiz__question">Who is the philosophical Trickster?</h1>
+                <p class="quiz__tracker">1 of 5</p>
+                <div class="quiz__progress">
+                    <div class="quiz__bar"></div>
+                </div>
+                <p class="quiz__tagline">Nothing to do, You are already there...</p>
+            </header>
+            <main>
+                <ul class="quiz__choices">
+                    <li class="quiz__choice">
+                        <input id="choice0" class="quiz__input" name="choice" type="radio" checked>
+                        <label for="choice0">
+                            <i class="quiz__icon"></i>
+                            <p class="quiz__text">Alan Watts</p>
+                        </label>
+                    </li>
+                    <li class="quiz__choice">
+                        <input id="choice1" class="quiz__input" name="choice" type="radio">
+                        <label for="choice1">
+                            <i class="quiz__icon"></i>
+                            <p class="quiz__text">Terence Mckenna</p>
+                        </label>
+                    </li>
+                    <li class="quiz__choice">
+                        <input id="choice2" class="quiz__input" name="choice" type="radio" checked>
+                        <label for="choice2">
+                            <i class="quiz__icon"></i>
+                            <p class="quiz__text">Andrew Holecek</p>
+                        </label>
+                    </li>
+                    <li class="quiz__choice">
+                        <input id="choice3" class="quiz__input" name="choice" type="radio">
+                        <label for="choice3">
+                            <i class="quiz__icon"></i>
+                            <p class="quiz__text">Rene Decarte</p>
+                        </label>
+                    </li>
+                </ul>
+            </main>
+            <footer>
+                <button class="quiz__next next__border next">NEXT</button>
+                <button class="quiz__restart restart__border restart">RESTART</button>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
