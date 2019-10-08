@@ -45,7 +45,7 @@ body {
     width: 50%;
 }
 
-.quiz__bar {
+.quiz__progress-bar {
     background: var(--secondary-color-orange);
     width: 25%;
     height: 5px;
@@ -67,12 +67,12 @@ body {
     align-items: center;
     grid-gap: 20px;
     max-width: 100%;
+    list-style-type: none;
 }
 
 .quiz__choice {
     display: flex;
     background: var(--item-color-lightgray);
-    list-style-type: none;
     border: 0.5px solid gray;
     height: 80%;
 }
